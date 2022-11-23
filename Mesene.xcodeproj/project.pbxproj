@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CFC64EF292E61D500B4D367 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFC64EE292E61D500B4D367 /* AppDelegate.m */; };
+		3CFC64F2292E61D500B4D367 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFC64F1292E61D500B4D367 /* SceneDelegate.m */; };
+		3CFC64F5292E61D500B4D367 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFC64F4292E61D500B4D367 /* ViewController.m */; };
+		3CFC64F8292E61D500B4D367 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CFC64F6292E61D500B4D367 /* Main.storyboard */; };
+		3CFC64FA292E61D600B4D367 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CFC64F9292E61D600B4D367 /* Assets.xcassets */; };
+		3CFC64FD292E61D600B4D367 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CFC64FB292E61D600B4D367 /* LaunchScreen.storyboard */; };
+		3CFC6500292E61D600B4D367 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFC64FF292E61D600B4D367 /* main.m */; };
+		3CFC650A292E61D600B4D367 /* MeseneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFC6509292E61D600B4D367 /* MeseneTests.m */; };
+		3CFC6514292E61D600B4D367 /* MeseneUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFC6513292E61D600B4D367 /* MeseneUITests.m */; };
+		3CFC6516292E61D600B4D367 /* MeseneUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFC6515292E61D600B4D367 /* MeseneUITestsLaunchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3CFC6506292E61D600B4D367 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CFC64E2292E61D500B4D367 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CFC64E9292E61D500B4D367;
+			remoteInfo = Mesene;
+		};
+		3CFC6510292E61D600B4D367 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CFC64E2292E61D500B4D367 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CFC64E9292E61D500B4D367;
+			remoteInfo = Mesene;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3CFC64EA292E61D500B4D367 /* Mesene.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mesene.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CFC64ED292E61D500B4D367 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3CFC64EE292E61D500B4D367 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3CFC64F0292E61D500B4D367 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		3CFC64F1292E61D500B4D367 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		3CFC64F3292E61D500B4D367 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3CFC64F4292E61D500B4D367 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3CFC64F7292E61D500B4D367 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3CFC64F9292E61D600B4D367 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3CFC64FC292E61D600B4D367 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3CFC64FE292E61D600B4D367 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CFC64FF292E61D600B4D367 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3CFC6505292E61D600B4D367 /* MeseneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeseneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CFC6509292E61D600B4D367 /* MeseneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeseneTests.m; sourceTree = "<group>"; };
+		3CFC650F292E61D600B4D367 /* MeseneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeseneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CFC6513292E61D600B4D367 /* MeseneUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeseneUITests.m; sourceTree = "<group>"; };
+		3CFC6515292E61D600B4D367 /* MeseneUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeseneUITestsLaunchTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CFC64E7292E61D500B4D367 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CFC6502292E61D600B4D367 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CFC650C292E61D600B4D367 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CFC64E1292E61D500B4D367 = {
+			isa = PBXGroup;
+			children = (
+				3CFC64EC292E61D500B4D367 /* Mesene */,
+				3CFC6508292E61D600B4D367 /* MeseneTests */,
+				3CFC6512292E61D600B4D367 /* MeseneUITests */,
+				3CFC64EB292E61D500B4D367 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3CFC64EB292E61D500B4D367 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CFC64EA292E61D500B4D367 /* Mesene.app */,
+				3CFC6505292E61D600B4D367 /* MeseneTests.xctest */,
+				3CFC650F292E61D600B4D367 /* MeseneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CFC64EC292E61D500B4D367 /* Mesene */ = {
+			isa = PBXGroup;
+			children = (
+				3CFC64ED292E61D500B4D367 /* AppDelegate.h */,
+				3CFC64EE292E61D500B4D367 /* AppDelegate.m */,
+				3CFC64F0292E61D500B4D367 /* SceneDelegate.h */,
+				3CFC64F1292E61D500B4D367 /* SceneDelegate.m */,
+				3CFC64F3292E61D500B4D367 /* ViewController.h */,
+				3CFC64F4292E61D500B4D367 /* ViewController.m */,
+				3CFC64F6292E61D500B4D367 /* Main.storyboard */,
+				3CFC64F9292E61D600B4D367 /* Assets.xcassets */,
+				3CFC64FB292E61D600B4D367 /* LaunchScreen.storyboard */,
+				3CFC64FE292E61D600B4D367 /* Info.plist */,
+				3CFC64FF292E61D600B4D367 /* main.m */,
+			);
+			path = Mesene;
+			sourceTree = "<group>";
+		};
+		3CFC6508292E61D600B4D367 /* MeseneTests */ = {
+			isa = PBXGroup;
+			children = (
+				3CFC6509292E61D600B4D367 /* MeseneTests.m */,
+			);
+			path = MeseneTests;
+			sourceTree = "<group>";
+		};
+		3CFC6512292E61D600B4D367 /* MeseneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3CFC6513292E61D600B4D367 /* MeseneUITests.m */,
+				3CFC6515292E61D600B4D367 /* MeseneUITestsLaunchTests.m */,
+			);
+			path = MeseneUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CFC64E9292E61D500B4D367 /* Mesene */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CFC6519292E61D600B4D367 /* Build configuration list for PBXNativeTarget "Mesene" */;
+			buildPhases = (
+				3CFC64E6292E61D500B4D367 /* Sources */,
+				3CFC64E7292E61D500B4D367 /* Frameworks */,
+				3CFC64E8292E61D500B4D367 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mesene;
+			productName = Mesene;
+			productReference = 3CFC64EA292E61D500B4D367 /* Mesene.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3CFC6504292E61D600B4D367 /* MeseneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CFC651C292E61D600B4D367 /* Build configuration list for PBXNativeTarget "MeseneTests" */;
+			buildPhases = (
+				3CFC6501292E61D600B4D367 /* Sources */,
+				3CFC6502292E61D600B4D367 /* Frameworks */,
+				3CFC6503292E61D600B4D367 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CFC6507292E61D600B4D367 /* PBXTargetDependency */,
+			);
+			name = MeseneTests;
+			productName = MeseneTests;
+			productReference = 3CFC6505292E61D600B4D367 /* MeseneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3CFC650E292E61D600B4D367 /* MeseneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CFC651F292E61D600B4D367 /* Build configuration list for PBXNativeTarget "MeseneUITests" */;
+			buildPhases = (
+				3CFC650B292E61D600B4D367 /* Sources */,
+				3CFC650C292E61D600B4D367 /* Frameworks */,
+				3CFC650D292E61D600B4D367 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CFC6511292E61D600B4D367 /* PBXTargetDependency */,
+			);
+			name = MeseneUITests;
+			productName = MeseneUITests;
+			productReference = 3CFC650F292E61D600B4D367 /* MeseneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CFC64E2292E61D500B4D367 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					3CFC64E9292E61D500B4D367 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					3CFC6504292E61D600B4D367 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 3CFC64E9292E61D500B4D367;
+					};
+					3CFC650E292E61D600B4D367 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 3CFC64E9292E61D500B4D367;
+					};
+				};
+			};
+			buildConfigurationList = 3CFC64E5292E61D500B4D367 /* Build configuration list for PBXProject "Mesene" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3CFC64E1292E61D500B4D367;
+			productRefGroup = 3CFC64EB292E61D500B4D367 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CFC64E9292E61D500B4D367 /* Mesene */,
+				3CFC6504292E61D600B4D367 /* MeseneTests */,
+				3CFC650E292E61D600B4D367 /* MeseneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CFC64E8292E61D500B4D367 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CFC64FD292E61D600B4D367 /* LaunchScreen.storyboard in Resources */,
+				3CFC64FA292E61D600B4D367 /* Assets.xcassets in Resources */,
+				3CFC64F8292E61D500B4D367 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CFC6503292E61D600B4D367 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CFC650D292E61D600B4D367 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CFC64E6292E61D500B4D367 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CFC64F5292E61D500B4D367 /* ViewController.m in Sources */,
+				3CFC64EF292E61D500B4D367 /* AppDelegate.m in Sources */,
+				3CFC6500292E61D600B4D367 /* main.m in Sources */,
+				3CFC64F2292E61D500B4D367 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CFC6501292E61D600B4D367 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CFC650A292E61D600B4D367 /* MeseneTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CFC650B292E61D600B4D367 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CFC6514292E61D600B4D367 /* MeseneUITests.m in Sources */,
+				3CFC6516292E61D600B4D367 /* MeseneUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3CFC6507292E61D600B4D367 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CFC64E9292E61D500B4D367 /* Mesene */;
+			targetProxy = 3CFC6506292E61D600B4D367 /* PBXContainerItemProxy */;
+		};
+		3CFC6511292E61D600B4D367 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CFC64E9292E61D500B4D367 /* Mesene */;
+			targetProxy = 3CFC6510292E61D600B4D367 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3CFC64F6292E61D500B4D367 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CFC64F7292E61D500B4D367 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3CFC64FB292E61D600B4D367 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CFC64FC292E61D600B4D367 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3CFC6517292E61D600B4D367 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3CFC6518292E61D600B4D367 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3CFC651A292E61D600B4D367 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Q3R9DV3L2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Mesene/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = chenkong.Mesene;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3CFC651B292E61D600B4D367 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Q3R9DV3L2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Mesene/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = chenkong.Mesene;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3CFC651D292E61D600B4D367 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Q3R9DV3L2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = chenkong.MeseneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mesene.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Mesene";
+			};
+			name = Debug;
+		};
+		3CFC651E292E61D600B4D367 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Q3R9DV3L2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = chenkong.MeseneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mesene.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Mesene";
+			};
+			name = Release;
+		};
+		3CFC6520292E61D600B4D367 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Q3R9DV3L2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = chenkong.MeseneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Mesene;
+			};
+			name = Debug;
+		};
+		3CFC6521292E61D600B4D367 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Q3R9DV3L2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = chenkong.MeseneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Mesene;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CFC64E5292E61D500B4D367 /* Build configuration list for PBXProject "Mesene" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CFC6517292E61D600B4D367 /* Debug */,
+				3CFC6518292E61D600B4D367 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CFC6519292E61D600B4D367 /* Build configuration list for PBXNativeTarget "Mesene" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CFC651A292E61D600B4D367 /* Debug */,
+				3CFC651B292E61D600B4D367 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CFC651C292E61D600B4D367 /* Build configuration list for PBXNativeTarget "MeseneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CFC651D292E61D600B4D367 /* Debug */,
+				3CFC651E292E61D600B4D367 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CFC651F292E61D600B4D367 /* Build configuration list for PBXNativeTarget "MeseneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CFC6520292E61D600B4D367 /* Debug */,
+				3CFC6521292E61D600B4D367 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CFC64E2292E61D500B4D367 /* Project object */;
+}
